@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DemoStaleless from './Components/DemoStaleless';
+import DemoStateFull from './Components/DemoStateFull';
+import BaiTapLayout from './Components/bai_tap_layout_component/BaiTapLayout';
+import Databinding from './Databinding/Databinding';
+import HandleEvent from './HandleEvent/HandleEvent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DemoStaleless />
+      <DemoStateFull /> */}
+      {/* <BaiTapLayout/> */}
+      {/* <Databinding/> */}
+      <HandleEvent/>
     </div>
   );
 }
