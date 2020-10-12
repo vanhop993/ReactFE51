@@ -10,19 +10,23 @@ import DemoConditionalandState from "./Demologin/DemoConditionalandState";
 import BaiTapChonMauXe from "./BTDoiMauXe";
 import ListAndKey from "./RenderVsArray(ListAndKeys)/ListAndKey";
 import DemoProps from "./Props/DemoProps";
+import BTGioHang from "./BT_GioHang/BTGioHang";
+import BaiTapGioHangRedux from "./BT_GioHangRedux/BaiTapGioHangRedux";
 
 function App() {
   return (
     <div className="App">
-      {/* <DemoStaleless />
-      <DemoStateFull /> */}
+      {/* <DemoStaleless /> */}
+      {/* <DemoStateFull /> */}
       {/* <BaiTapLayout/> */}
       {/* <Databinding/> */}
       {/* <HandleEvent/> */}
       {/* <DemoConditionalandState /> */}
       {/* <BaiTapChonMauXe /> */}
       {/* <ListAndKey /> */}
-      <DemoProps />
+      {/* <DemoProps /> */}
+      {/* <BTGioHang /> */}
+      <BaiTapGioHangRedux />
     </div>
   );
 }
