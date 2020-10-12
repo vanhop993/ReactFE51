@@ -3,12 +3,10 @@ import SanPhamGioHang from "./SanPhamGioHang";
 import { connect } from "react-redux";
 
 class GioHangRedux extends Component {
-  renderGioHang = () => {
-    let { gioHang } = this.props;
-    return gioHang.map((spGH, index) => (
-      <SanPhamGioHang key={index} spGH={spGH} />
-    ));
-  };
+  // renderGioHang = () => {
+  //   let { gioHang } = this.props;
+  //   return gioHang.map((spGH, index) => <SanPhamGioHang key={index} />);
+  // };
   render() {
     return (
       <table className="table">
@@ -22,7 +20,9 @@ class GioHangRedux extends Component {
             <th>Thành tiền</th>
           </tr>
         </thead>
-        <tbody>{this.renderGioHang()}</tbody>
+        <tbody>
+          <SanPhamGioHang />
+        </tbody>
       </table>
     );
   }

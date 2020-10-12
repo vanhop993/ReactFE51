@@ -12,6 +12,7 @@ import ListAndKey from "./RenderVsArray(ListAndKeys)/ListAndKey";
 import DemoProps from "./Props/DemoProps";
 import BTGioHang from "./BT_GioHang/BTGioHang";
 import BaiTapGioHangRedux from "./BT_GioHangRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXac from "./BaiTapGameXucXac/BaiTapGameXucXac";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ListAndKey /> */}
       {/* <DemoProps /> */}
       {/* <BTGioHang /> */}
-      <BaiTapGioHangRedux />
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapGameXucXac />
     </div>
   );
 }

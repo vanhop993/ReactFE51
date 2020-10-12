@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url(./font/Pony.ttf);
+}
+
+.fontGameXucXac {
+    font-family: fontGame;
+}
