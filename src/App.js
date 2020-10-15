@@ -26,12 +26,9 @@ function App() {
       {/* <BaiTapChonMauXe /> */}
       {/* <ListAndKey /> */}
       {/* <DemoProps /> */}
-<<<<<<< HEAD
-=======
       {/* <BTGioHang /> */}
       {/* <BaiTapGioHangRedux /> */}
       <BaiTapGameXucXac />
->>>>>>> buoi4-redux
     </div>
   );
 }
