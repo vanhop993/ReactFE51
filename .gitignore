@@ -3,4 +3,7 @@
 # dependencies
 # loại bỏ file node_modules không up lên git
 /node_modules
+<<<<<<< HEAD
 
+=======
+>>>>>>> buoi4-redux

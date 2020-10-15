@@ -10,12 +10,15 @@ import DemoConditionalandState from "./Demologin/DemoConditionalandState";
 import BaiTapChonMauXe from "./BTDoiMauXe";
 import ListAndKey from "./RenderVsArray(ListAndKeys)/ListAndKey";
 import DemoProps from "./Props/DemoProps";
+import BTGioHang from "./BT_GioHang/BTGioHang";
+import BaiTapGioHangRedux from "./BT_GioHangRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXac from "./BaiTapGameXucXac/BaiTapGameXucXac";
 
 function App() {
   return (
     <div className="App">
-      {/* <DemoStaleless />
-      <DemoStateFull /> */}
+      {/* <DemoStaleless /> */}
+      {/* <DemoStateFull /> */}
       {/* <BaiTapLayout/> */}
       {/* <Databinding/> */}
       {/* <HandleEvent/> */}
@@ -23,6 +26,12 @@ function App() {
       {/* <BaiTapChonMauXe /> */}
       {/* <ListAndKey /> */}
       {/* <DemoProps /> */}
+<<<<<<< HEAD
+=======
+      {/* <BTGioHang /> */}
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapGameXucXac />
+>>>>>>> buoi4-redux
     </div>
   );
 }
