@@ -22,7 +22,7 @@ function App() {
       {/* <DemoConditionalandState /> */}
       {/* <BaiTapChonMauXe /> */}
       {/* <ListAndKey /> */}
-      <DemoProps />
+      {/* <DemoProps /> */}
     </div>
   );
 }
