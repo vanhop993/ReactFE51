@@ -10,8 +10,8 @@ import NewFormComponent from "./NewFormComponent";
 class DanhSachNguoiDung extends Component {
   renderDanhSachNguoiDung = () => {
     let { mangNguoiDung } = this.props;
-    return mangNguoiDung.map((nguoiDung) => (
-      <tr key={nguoiDung.maNguoiDung}>
+    return mangNguoiDung.map((nguoiDung, index) => (
+      <tr key={index}>
         <td>{nguoiDung.maNguoiDung}</td>
         <td>{nguoiDung.tenNguoiDung}</td>
         <td>{nguoiDung.soDienThoai}</td>
@@ -36,6 +36,7 @@ class DanhSachNguoiDung extends Component {
     ));
   };
   render() {
+    console.log("render");
     return (
       <div className="container">
         {/* <FormComponent /> */}

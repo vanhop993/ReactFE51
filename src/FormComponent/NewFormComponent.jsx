@@ -57,7 +57,9 @@ class NewFormComponent extends Component {
           let valid = true;
           // duyệt thuộc tính trong object values (duyệt thuộc tính trong đối tượng thì dùng ES6  for in )
           for (let tenThuocTinh in this.props.stateForm.values) {
-            if (this.props.stateForm.values[tenThuocTinh].trim() === "") {
+            if (
+              this.props.stateForm.values[tenThuocTinh].toString().trim() === ""
+            ) {
               valid = false;
             }
           }
@@ -143,10 +145,13 @@ class NewFormComponent extends Component {
               <button className="btn btn-success">Thêm người dùng</button>
               <button
                 className="btn btn-success ml-1"
-                onClick={this.props.dispatch({
-                  type: "CAP_NHAP_THONG_TIN",
-                  nguoiDungCapNhap: this.props.stateForm.values,
-                })}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.props.dispatch({
+                    type: "CAP_NHAP_THONG_TIN",
+                    nguoiDungCapNhap: this.props.stateForm.values,
+                  });
+                }}
               >
                 Cập nhập
               </button>
